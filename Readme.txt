@@ -1,0 +1,24 @@
+# cd "C:\Users\fgy\AppData\Local\Temp\Git00\"
+# "C:\Users\fgy\AppData\Local\Temp\Git00\Readme.txt"
+
+…or create a new repository on the command line
+
+echo "# Git00" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/FabianGossye/Git00.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/FabianGossye/Git00.git
+git push -u origin master
+
+…or import code from another repository
+
+# cd "C:\Users\fgy\AppData\Local\Temp\Git00\..\GitClone\"
+git clone https://github.com/FabianGossye/Git00.git
+# cd "C:\Users\fgy\AppData\Local\Temp\Git00\..\GitClone\Git00"
+
+
