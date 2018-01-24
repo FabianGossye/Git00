@@ -25,7 +25,7 @@ cd "C:\Users\fgy\AppData\Local\Temp\Git00\"
 cd "C:\Users\fgy\AppData\Local\Temp\Git00\..\GitClone\Git00"
 git pull
 echo %date% %time% readme.txt
-git commit -m "Commit %date% %time%"
+git commit -m "Commit %date% %time%" -o Readme.txt
 git push
 
 
