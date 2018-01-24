@@ -24,7 +24,7 @@ git clone https://github.com/FabianGossye/Git00.git
 cd "C:\Users\fgy\AppData\Local\Temp\Git00\"
 cd "C:\Users\fgy\AppData\Local\Temp\Git00\..\GitClone\Git00"
 git pull
-echo %date% %time% readme.txt
+echo %date% %time% >> readme.txt
 git commit -m "Commit %date% %time%" -o Readme.txt
 git push
 
@@ -38,3 +38,4 @@ mer. 24/01/2018 11:51:31,05
 mer. 24/01/2018 11:53:16,61 
 mer. 24/01/2018 11:54:18,36 
 mer. 24/01/2018 11:56:37,59 
+mer. 24/01/2018 11:58:23,80 
