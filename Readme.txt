@@ -21,7 +21,12 @@ git push -u origin master
 git clone https://github.com/FabianGossye/Git00.git
 # cd "C:\Users\fgy\AppData\Local\Temp\Git00\..\GitClone\Git00"
 
-
+cd "C:\Users\fgy\AppData\Local\Temp\Git00\"
+cd "C:\Users\fgy\AppData\Local\Temp\Git00\..\GitClone\Git00"
+git pull
+echo %date% %time% readme.txt
+git commit -m "Commit %date% %time%"
+git push
 
 
 #### #####
