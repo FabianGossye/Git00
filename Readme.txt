@@ -6,7 +6,7 @@
 echo "# Git00" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
+git commit -m "Commit 20180124092903"
 git remote add origin https://github.com/FabianGossye/Git00.git
 git push -u origin master
 
@@ -17,8 +17,13 @@ git push -u origin master
 
 …or import code from another repository
 
-# cd "C:\Users\fgy\AppData\Local\Temp\Git00\..\GitClone\"
+# cd "C:\Users\fgy\AppData\Local\Temp\Git00\..\GitClone\."
 git clone https://github.com/FabianGossye/Git00.git
 # cd "C:\Users\fgy\AppData\Local\Temp\Git00\..\GitClone\Git00"
+
+
+
+
+#### #####
 
 
