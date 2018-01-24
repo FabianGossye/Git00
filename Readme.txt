@@ -6,7 +6,7 @@
 echo "# Git00" >> README.md
 git init
 git add README.md
-git commit -m "Commit 20180124092903"
+git commit -m "Commit 20180124093144 Clone "
 git remote add origin https://github.com/FabianGossye/Git00.git
 git push -u origin master
 
