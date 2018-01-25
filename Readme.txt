@@ -24,9 +24,13 @@ git clone https://github.com/FabianGossye/Git00.git
 cd "C:\Users\fgy\AppData\Local\Temp\Git00\"
 cd "C:\Users\fgy\AppData\Local\Temp\Git00\..\GitClone\Git00"
 git pull
-echo %date% %time% >> readme.txt
+echo %date% %time% >> Readme.txt
 git commit -m "Commit %date% %time%" -o Readme.txt
 git push
+
+rem !!!
+git checkout Readme.txt
+
 
 
 #### #####
