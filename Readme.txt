@@ -1,11 +1,11 @@
 # cd "C:\Users\fgy\AppData\Local\Temp\Git00\"
-# "C:\Users\fgy\AppData\Local\Temp\Git00\Readme.txt"
+# "C:\Users\fgy\AppData\Local\Temp\Git00\ReadMe.txt"
 
 …or create a new repository on the command line
 
-echo "# Git00" >> README.md
+echo "# Git00" >> ReadMe.md
 git init
-git add README.md
+git add ReadMe.md
 git commit -m "Commit 20180124093144 Clone "
 git remote add origin https://github.com/FabianGossye/Git00.git
 git push -u origin master
@@ -25,12 +25,12 @@ cd "C:\Users\fgy\AppData\Local\Temp\Git00\"
 cd "C:\Users\fgy\AppData\Local\Temp\Git00\..\GitClone\Git00"
 git pull
 git add ReadMe.txt
-echo %date% %time% >> Readme.txt
-git commit -m "Commit %date% %time%" -o Readme.txt
+echo %date% %time% >> ReadMe.txt
+git commit -m "Commit %date% %time%" -o ReadMe.txt
 git push
 
 rem !!!
-git checkout Readme.txt
+git checkout ReadMe.txt
 
 
 
