@@ -27,6 +27,7 @@ git pull
 git add ReadMe.txt
 echo %date% %time% >> ReadMe.txt
 git commit -m "Commit %date% %time%" -o ReadMe.txt
+
 git push
 
 rem !!!
@@ -43,3 +44,4 @@ jeu. 25/01/2018  8:49:24,65
 jeu. 25/01/2018  9:01:18,69 
 jeu. 25/01/2018  9:06:27,98
 jeu. 25/01/2018 11:38:09,92 
+jeu. 25/01/2018 11:37:20,99 
